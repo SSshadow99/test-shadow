@@ -3262,5 +3262,4 @@ client.on("raw", (packet)=> {
 
 	  
 
-//MHSTR END NOW THIS IS END
-LOka.login("NTk1NzY3NzMwMDMzMTMxNTMx.XRvykg.GOJ0ZnzpIOoGHTDR-8veuCnA-CU")
+client.login(process.env.BOT_TOKEN);
