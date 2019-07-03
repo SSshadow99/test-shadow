@@ -3017,7 +3017,7 @@ client.on('ready',async () => {
     const config = {
       name: "MEMBER COLOR", // اسم الرتبة
       guildid: "588194192715415563", // اي دي السيرفر
-      sec: 5.5 // عدد الثواني
+      sec: 1.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -3122,7 +3122,7 @@ client.on('ready',async () => {
     const config = {
       name: "OWNER COLOR", // اسم الرتبة
       guildid: "588194192715415563", // اي دي السيرفر
-      sec: 5.5 // عدد الثواني
+      sec: 1.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
@@ -3154,7 +3154,7 @@ if (x) x.join();
     const config = {
       name: "ADMIN COLOR", // اسم الرتبة
       guildid: "588194192715415563", // اي دي السيرفر
-      sec: 5.5 // عدد الثواني
+      sec: 1.1 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
